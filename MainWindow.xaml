@@ -1,0 +1,55 @@
+﻿<Window x:Class="Menadrzerzadan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Formularz" Height="350" Width="500">
+
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2"
+                   Text="Formularz"
+                   FontSize="32"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
+
+        <Label Grid.Row="1" Grid.Column="0"
+               Content="Imię:"/>
+        <TextBox x:Name="ImieTextBox"
+                 Grid.Row="1" Grid.Column="1"
+                 Margin="5"/>
+
+        <Label Grid.Row="2" Grid.Column="0"
+               Content="Nazwisko:"/>
+        <TextBox x:Name="NazwiskoTextBox"
+                 Grid.Row="2" Grid.Column="1"
+                 Margin="5"/>
+
+        <Label Grid.Row="3" Grid.Column="0"
+               Content="Wiek:"/>
+        <TextBox x:Name="WiekTextBox"
+                 Grid.Row="3" Grid.Column="1"
+                 Margin="5"/>
+
+        <Button Grid.Row="4" Grid.Column="1"
+                Content="Wyślij"
+                Width="100"
+                Height="30"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Background="DodgerBlue"
+                FontWeight="Bold"
+                Foreground="White"
+                Click="WyslijButton_Click"/>
+    </Grid>
+</Window>
