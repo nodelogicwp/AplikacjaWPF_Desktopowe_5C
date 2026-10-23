@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormularzWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1855e026312291ce8e30436137c73eef17fd87ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef37adf16050d1bda6f641f74ab65f606a22b74d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormularzWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormularzWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
